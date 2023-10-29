@@ -1,5 +1,10 @@
 const data=[ -10,-20,90,100,30,120,70, -90,45,999,-890];
 
+/*
+ TWO NESTED LOOPS INVOLVED
+   TIME COMPLEXITY: O(N2)--> N square
+   space complexity: constant
+*/
 function bubbleSort(arr)
 {
      for(var i=0;i<arr.length;i++){  

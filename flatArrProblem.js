@@ -1,6 +1,9 @@
 const array = [123,[23,46],4,5,[5,6,7,[87,6]]]
 // Create a flat array and find the lowest amount
 
+// time complexity is O(N*k) , where k is the length of every sub array 
+// space complexity is O(N)
+
 function createFlat(array){
     if(array.length===undefined)
     {
@@ -29,6 +32,7 @@ function createFlat(array){
     return arr;
     
 }
+// time complexity is O(N); 
 function findMin(arr)
 {
      let minAns=arr[0];
